@@ -7,7 +7,7 @@ class SavingsAccount:
     """This class represents a savings account
     with the owner's name, PIN, and balance."""
 
-    RATE = 0.02
+    RATE = 0.02    # Single rate for all accounts
 
     def __init__(self, name, pin, balance = 0.0):
         self.name = name
@@ -15,6 +15,7 @@ class SavingsAccount:
         self.balance = balance
 
     def __str__(self):
+        """Returns the string rep."""
         result =  'Name:    ' + self.name + '\n' 
         result += 'PIN:     ' + self.pin + '\n' 
         result += 'Balance: ' + str(self.balance)

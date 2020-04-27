@@ -1,6 +1,6 @@
 """
 File: bank.py
-This module defines the Bank class.
+This module defines the SavingsAccount and Bank classes.
 """
 import pickle
 import random
